@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../assets/logo estores/logo estores.png';
+//import logo from '../assets/logo estores/logo estores.png';
 import { Building2 } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import type { UserRole } from '../types/auth';
@@ -74,7 +74,7 @@ export function Login({ onLoginSuccess, onSwitchToSignup }: LoginProps) {
               <Building2 className="w-10 h-10 text-white" />
             </div> */}
             {/* use imported logo variable (handles spaces in filenames) */}
-            <img src= {logo} alt="eStores logo" className="h-40 w-auto" />
+            <img src= "https://estoresedu.com/estores_logo-transformed.png" alt="eStores logo" className="h-40 w-auto" />
             <h1 className="text-3xl font-bold" style={{ color: '#F4A261' }}>
               eStores WorkHub
             </h1>
